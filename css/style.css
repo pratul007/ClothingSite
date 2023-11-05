@@ -1,0 +1,33 @@
+/* google fonts styles */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap");
+/* basic styles */
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* common styles*/
+nav ul li a,
+.banner-text,
+.primary-btn,
+.card-title,
+.card-text,
+.feature-sub-title,
+.feature-text,
+.footer-text {
+  font-family: "Roboto", sans-serif;
+}
+
+.section-title,
+.banner-title {
+  font-family: "Bebas Neue", sans-serif;
+}
